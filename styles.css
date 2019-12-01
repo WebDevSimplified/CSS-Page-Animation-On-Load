@@ -3,6 +3,7 @@ body {
   --nav-load-time: 300ms;
   --nav-link-load-time: 500ms;
   --article-load-delay: calc(var(--nav-load-time) + var(--nav-link-load-time))
+  overflow: hidden;
 }
 
 nav {
